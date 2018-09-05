@@ -336,7 +336,7 @@ body {
     height: 520px;
 }
 
-.main-box-sixth{
+.main-box-sixth {
     color: rgba(255, 255, 255, 0.9);
     font-family: 'VegurRegular';
     font-weight: bolder;
@@ -348,23 +348,22 @@ body {
     margin-top: 80px;
 }
 
-
-.text-hash{
-    color:#ff296b;
+.text-hash {
+    color: #ff296b;
     letter-spacing: 3px;
     font-size: 1.2em;
 }
 
-.three-stickers{
+.three-stickers {
     flex-direction: row;
     align-self: flex-start;
     margin-top: -20px;
 
 }
-.three-stickers img{
+
+.three-stickers img {
     width: 10%;
 }
-
 
 /*Seventh*/
 
@@ -373,6 +372,30 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 520px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 25px;
+    padding-bottom: 30px;
 }
 
+.main-box-seventh {
+    width: 100%;
+    background-color: rgba(29, 30, 31, 0.81);
+}
+
+.main-box-seventh-1 {
+    margin-top: 20px;
+    margin-bottom: 25px;
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'VegurRegular';
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.4em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.main-box-seventh-1 img {
+    width: 70%;
+}
