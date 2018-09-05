@@ -120,7 +120,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-
+    background-attachment: fixed;
+    background-position: center;
+    height: 520px;
 }
 
 .section1-id1 {
@@ -128,7 +130,11 @@ body {
     align-self: flex-end;
     justify-content: center;
     margin-bottom: 70px;
+}
 
+.section1-id1 span:hover {
+    opacity: 0.95;
+    background-color: #021037;
 }
 
 .section1-id1 span {
@@ -137,6 +143,7 @@ body {
     letter-spacing: 1.5px;
     background-color: #020a28;
     padding: 15px 70px 15px 70px;
+    cursor: pointer;
 
 }
 
@@ -156,6 +163,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    background-attachment: fixed;
+    background-position: center;
 
 }
 
@@ -191,11 +200,14 @@ body {
 .image-section2-4-1 {
     width: 120%;
     margin-left: -140px;
+    cursor: pointer;
+
 }
 
 .image-section2-4-2 {
     width: 120%;
     margin-right: -100px;
+    cursor: pointer;
 }
 
 .third-section {
@@ -204,6 +216,8 @@ body {
     background-repeat: no-repeat;
     width: 100%;
     min-height: 520px;
+    background-attachment: fixed;
+    background-position: center;
 
 }
 
@@ -239,6 +253,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    background-attachment: fixed;
+    background-position: center;
 
 }
 
@@ -286,6 +302,13 @@ body {
     background-color: #ff296b;
     padding: 15px 70px 15px 70px;
     font-size: 0.7em;
+    cursor: pointer;
+
+}
+
+.section4-id2 span:hover {
+    background-color: #e42b79;
+    opacity: 0.9;
 }
 
 .fifth-section {
@@ -293,6 +316,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 .main-box-fifth {
@@ -333,7 +358,9 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
-    height: 520px;
+    background-attachment: fixed;
+    background-position: center;
+
 }
 
 .main-box-sixth {
@@ -400,7 +427,7 @@ body {
     width: 70%;
 }
 
-.footer{
+.footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -408,7 +435,7 @@ body {
     height: 50px;
 }
 
-.footer span{
+.footer span {
     color: rgba(255, 255, 255, 0.70);
     font-weight: 700;
 }
