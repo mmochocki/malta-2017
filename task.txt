@@ -1,0 +1,3 @@
+- cziocnka FuturaMTV DemiBoldItalic nie jest powszechnie dostêpna - zast¹pi³em j¹ podobn¹.
+- stara³em siê u¿ywaæ ró¿nych sposobów projektowania w ró¿nych sekcjach, aby przedstawiæ ró¿ne metodyki pracy
+- czêœæ z grafik eksportowa³em kilkoma warstwami i scala³em je w jedn¹
