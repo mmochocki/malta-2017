@@ -53,8 +53,6 @@ body {
 .menu a {
     text-decoration: none;
     color: #222;
-    /*display: block;*/
-    /*padding: 5px;*/
     font-size: 0.7em;
     font-weight: bold;
 }
@@ -107,4 +105,94 @@ body {
     text-decoration: none;
 }
 
+.first-section {
+    background-image: url("../img/background-1st.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
 
+}
+
+.section1-id1 {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+    margin-bottom: 70px;
+
+}
+
+.section1-id1 span {
+    font-family: 'TypoPRO Bebas Neue';
+    color: #ddd;
+    letter-spacing: 1.5px;
+    /*line-height: 40px;*/
+    background-color: #020a28;
+    padding: 15px 70px 15px 70px;
+
+}
+
+.section1-id2 {
+    align-self: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.section1-id2 img {
+    width: 80%;
+}
+
+.second-section {
+    background-image: url("../img/background-2nd.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+.image-section2-1 {
+    width: 70%;
+    margin-top: -40px;
+}
+
+.image-section2-2-3 {
+    width: 70%;
+    margin-top: -100px;
+}
+
+.section2-id1 {
+    text-align: right;
+}
+
+.main-text-title{
+    font-family: 'VegurRegular';
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.3em;
+    color: rgba(255, 255, 255, 0.9);
+    letter-spacing: 1px;
+}
+
+.image-section2-3{
+    width: 100%;
+}
+
+.image-section2-4-1{
+    width: 120%;
+    margin-left: -140px;
+}
+
+.image-section2-4-2{
+    width: 120%;
+    margin-right: -100px;
+}
+
+.third-section {
+    background-image: url("../img/background-3rd.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 520px;
+
+}
