@@ -2,6 +2,16 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
 .centerVerticalElement {
     display: flex;
     align-items: center;
@@ -125,7 +135,6 @@ body {
     font-family: 'TypoPRO Bebas Neue';
     color: #ddd;
     letter-spacing: 1.5px;
-    /*line-height: 40px;*/
     background-color: #020a28;
     padding: 15px 70px 15px 70px;
 
@@ -222,5 +231,103 @@ body {
 
 .main-box-third img {
     margin-bottom: -200px;
-    width: 30%;
+    width: 23%;
+}
+
+.fourth-section {
+    background-image: url("../img/background-4th.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+.main-box-fourth {
+    display: flex;
+    align-self: flex-end;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.main-box-fourth img {
+    width: 70%;
+    margin-bottom: -75px;
+    margin-left: 200px;
+    margin-right: -150px;
+}
+
+.main-box-fourth-2 {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'VegurRegular';
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 20px;
+
+}
+
+.section4-id2 {
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section4-id2 img {
+    width: 10%;
+}
+
+.section4-id2 span {
+    font-family: 'TypoPRO Bebas Neue';
+    color: #ddd;
+    background-color: #ff296b;
+    padding: 15px 70px 15px 70px;
+    font-size: 0.7em;
+}
+
+.fifth-section {
+    background-image: url("../img/background-5th.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+
+.main-box-fifth {
+    display: flex;
+    align-self: flex-start;
+    align-items: right;
+    flex-direction: column;
+}
+
+.main-box-fifth {
+    color: rgba(255, 255, 255, 0.9);
+    font-family: 'VegurRegular';
+    font-weight: bolder;
+    font-style: italic;
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 80px;
+}
+
+.main-box-fifth-2 {
+    display: flex;
+    align-self: flex-end;
+    align-items: right;
+    flex-direction: column;
+    padding-right: 0px;
+}
+
+.main-box-fifth-2 img {
+    margin-bottom: -40px;
+    width: 100%;
+
+}
+
+.sixth-section {
+
 }
