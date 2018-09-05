@@ -405,6 +405,16 @@ body {
     padding-bottom: 30px;
 }
 
+.seventh-section:hover{
+    filter: saturate(200%);
+    transition: 1s;
+}
+
+.main-box-seventh:hover{
+    transform: rotate(3deg);
+    transition: 2s;
+}
+
 .main-box-seventh {
     width: 100%;
     background-color: rgba(29, 30, 31, 0.8);
