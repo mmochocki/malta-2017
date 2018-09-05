@@ -139,10 +139,11 @@ body {
 
 .section1-id1 span {
     font-family: 'TypoPRO Bebas Neue';
+    font-size: 1.3em;
     color: #ddd;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     background-color: #020a28;
-    padding: 15px 70px 15px 70px;
+    padding: 20px 100px 20px 100px;
     cursor: pointer;
 
 }
@@ -385,7 +386,7 @@ body {
     flex-direction: row;
     align-self: flex-start;
     margin-top: -20px;
-
+    margin-bottom: -40px;
 }
 
 .three-stickers img {
