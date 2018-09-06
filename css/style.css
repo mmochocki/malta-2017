@@ -67,6 +67,24 @@ body {
     font-weight: bold;
 }
 
+@media only screen and (max-width: 1025px) {
+    .menu a {
+        font-size: 0.5em;
+    }
+
+    .menu ul li {
+        margin-right: 15px;
+    }
+
+    .language-box ul li a {
+        font-size: 0.4em;
+    }
+
+    .language-box ul li {
+        margin-right: 5px !important;
+    }
+}
+
 .flex-center {
     display: flex;
     align-items: center;
@@ -101,7 +119,6 @@ body {
 
 .language-box ul li {
     text-decoration: none;
-    text-decoration: none;
     display: inline-block;
     margin-right: 8px;
 }
@@ -122,7 +139,7 @@ body {
     width: 100%;
     background-attachment: fixed;
     background-position: center;
-    height: 520px;
+    min-height: 520px;
 }
 
 .section1-id1 {
@@ -146,6 +163,18 @@ body {
     padding: 20px 100px 20px 100px;
     cursor: pointer;
 
+}
+
+@media only screen and (max-width: 1025px) {
+
+    .first-section {
+        min-height: 340px;
+    }
+
+    .section1-id1 span {
+        padding: 15px 60px 15px 60px;
+        font-size: 0.8em;
+    }
 }
 
 .section1-id2 {
@@ -179,6 +208,17 @@ body {
     margin-top: -100px;
 }
 
+@media only screen and (max-width: 1025px) {
+
+    .image-section2-2-3 {
+        margin-top: -70px;
+    }
+
+    .image-section2-1 {
+        margin-top: 0px;
+    }
+}
+
 .section2-id1 {
     text-align: right;
 }
@@ -192,6 +232,13 @@ body {
     color: rgba(255, 255, 255, 0.9);
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1025px) {
+
+    .main-text-title {
+        font-size: 1em;
+    }
 }
 
 .image-section2-3 {
@@ -244,9 +291,27 @@ body {
 
 }
 
+@media only screen and (max-width: 1025px) {
+
+    .main-box-third {
+        font-size: 1em;
+    }
+
+    .third-section {
+        min-height: 340px;
+    }
+}
+
 .main-box-third img {
     margin-bottom: -200px;
     width: 23%;
+}
+
+@media only screen and (max-width: 1025px) {
+
+    .main-box-third img {
+        width: 40%;
+    }
 }
 
 .fourth-section {
@@ -274,6 +339,13 @@ body {
     margin-right: -150px;
 }
 
+@media only screen and (max-width: 1025px) {
+
+    .main-box-fourth img {
+        width: 50%;
+    }
+}
+
 .main-box-fourth-2 {
     color: rgba(255, 255, 255, 0.9);
     font-family: 'VegurRegular';
@@ -285,6 +357,13 @@ body {
     text-transform: uppercase;
     margin-top: 20px;
 
+}
+
+@media only screen and (max-width: 1025px) {
+
+    .main-box-fourth-2 {
+        font-size: 1em;
+    }
 }
 
 .section4-id2 {
@@ -340,6 +419,13 @@ body {
     margin-top: 80px;
 }
 
+@media only screen and (max-width: 1025px) {
+
+    .main-box-fifth {
+        font-size: 1em;
+    }
+}
+
 .main-box-fifth-2 {
     display: flex;
     align-self: flex-end;
@@ -376,6 +462,13 @@ body {
     margin-top: 80px;
 }
 
+@media only screen and (max-width: 1025px) {
+
+    .main-box-sixth {
+        font-size: 1em;
+    }
+}
+
 .text-hash {
     color: #ff296b;
     letter-spacing: 3px;
@@ -393,8 +486,6 @@ body {
     width: 10%;
 }
 
-/*Seventh*/
-
 .seventh-section {
     background-image: url("../img/background-7th.jpg");
     background-size: cover;
@@ -406,12 +497,12 @@ body {
     padding-bottom: 30px;
 }
 
-.seventh-section:hover{
+.seventh-section:hover {
     filter: saturate(200%);
     transition: 1s;
 }
 
-.main-box-seventh:hover{
+.main-box-seventh:hover {
     transform: rotate(3deg);
     transition: 2s;
 }
@@ -432,6 +523,13 @@ body {
     font-size: 1.4em;
     letter-spacing: 1px;
     text-transform: uppercase;
+}
+
+@media only screen and (max-width: 1025px) {
+
+    .main-box-seventh-1 {
+        font-size: 1em;
+    }
 }
 
 .main-box-seventh-1 img {
