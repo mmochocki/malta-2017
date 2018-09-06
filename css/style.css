@@ -22,6 +22,13 @@ body {
     width: 100%;
 }
 
+@media only screen and (max-width: 764px) {
+
+    .centerVerticalElement img {
+        width: 30%;
+    }
+}
+
 .margin-20-lr {
     margin-left: 10%;
     margin-right: 10%;
@@ -188,6 +195,27 @@ body {
     width: 80%;
 }
 
+@media only screen and (max-width: 764px) {
+
+    .section1-id1 {
+        margin-bottom: -200px;
+    }
+
+    .section1-id2 img {
+        width: 30%;
+    }
+
+    .section1-id1 span {
+        padding: 10px 30px 10px 30px;
+        margin-left: 50px;
+    }
+
+    .main-box-third img {
+        width: 30%;
+    }
+
+}
+
 .second-section {
     background-image: url("../img/background-2nd.jpg");
     background-size: cover;
@@ -258,6 +286,29 @@ body {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 764px) {
+
+    .image-section2-4-2 {
+        width: 40%;
+    }
+
+    .image-section2-4-1 {
+        width: 40%;
+    }
+
+    .image-section2-1 {
+        display: none;
+    }
+
+    .image-section2-3 {
+        width: 70%;
+    }
+
+    .image-section2-2-3 {
+        display: none;
+    }
+}
+
 .third-section {
     background-image: url("../img/background-3rd.jpg");
     background-size: cover;
@@ -302,6 +353,14 @@ body {
     }
 }
 
+@media only screen and (max-width: 764px) {
+
+    .main-box-third {
+        font-size: 0.9em;
+        margin-top: 50px;
+    }
+}
+
 .main-box-third img {
     margin-bottom: -200px;
     width: 23%;
@@ -310,7 +369,8 @@ body {
 @media only screen and (max-width: 1025px) {
 
     .main-box-third img {
-        width: 40%;
+        width: 30%;
+        margin-left: 50px;
     }
 }
 
@@ -346,6 +406,14 @@ body {
     }
 }
 
+@media only screen and (max-width: 764px) {
+
+    .main-box-fourth img {
+        margin: -50px 0px 0px 0px;
+        width: 60%;
+    }
+}
+
 .main-box-fourth-2 {
     color: rgba(255, 255, 255, 0.9);
     font-family: 'VegurRegular';
@@ -356,7 +424,7 @@ body {
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-top: 20px;
-
+    margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 1025px) {
@@ -423,6 +491,13 @@ body {
 
     .main-box-fifth {
         font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 764px) {
+
+    .main-box-fifth-2 img {
+        width: 20% !important;
     }
 }
 
